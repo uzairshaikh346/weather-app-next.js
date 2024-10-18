@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: url("./images/noaa-Led9c1SSNFo-unsplash.jpg") center center fixed;
+    -webkit-background-size:cover;
+    -moz-backgroud-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    height: 100vh;
+};
+.degrees::after{
+    content: '\oobo';
+}
